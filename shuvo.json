@@ -1,0 +1,2072 @@
+{
+  "message": "All data fetched successfully!",
+  "data": {
+    "store": [
+      {
+        "_id": "67e17a236f2b14f7c0bc057e",
+        "product_name": "Naty_Olympic_Small",
+        "company_name": "Olympic",
+        "store_quantity": 95,
+        "purchase_price": 4,
+        "unit_type": "Pcs"
+      },
+      {
+        "_id": "67e17b096f2b14f7c0bc0587",
+        "product_name": "Naty_Olympic_Standerd",
+        "company_name": "Olympic",
+        "store_quantity": 85,
+        "purchase_price": 18,
+        "unit_type": "Pcs"
+      }
+    ],
+    "users": [
+      {
+        "_id": "66a44b24e878f08bf2111049",
+        "userName": "Swapon Miah",
+        "userEmail": "swaponmiah120@gmail.com",
+        "userVerify": true,
+        "role": "admin",
+        "role1": "owner"
+      },
+      {
+        "_id": "67c27ac83808678347f1b26b",
+        "userName": "Ismail Miah",
+        "userEmail": "miahismail654@gmail.com",
+        "role": "sels-man",
+        "userVerify": false
+      }
+    ],
+    "customer": [
+      {
+        "_id": "67e17bdb6f2b14f7c0bc058c",
+        "name": "Murad Khan",
+        "address": "Tangail, Dhaka",
+        "mobile": "01436987452",
+        "currentDate": "2025-03-24",
+        "CustomerId": "CUST000001",
+        "order": [
+          {
+            "customer": {
+              "name": "Murad Khan",
+              "address": "Tangail, Dhaka",
+              "mobile": "01436987452",
+              "CustomerId": "CUST000001"
+            },
+            "previous_due": 900,
+            "paid": "500",
+            "discount": 0,
+            "subTotal": 0,
+            "grand_total": 290,
+            "total_profit": 18,
+            "total_due": 1190,
+            "due": 690,
+            "c_object_id": "67e17bdb6f2b14f7c0bc058c",
+            "date": "2025-03-24",
+            "subTotal1": 290,
+            "invoice_no": 1,
+            "products": [
+              {
+                "productName": "Naty_Olympic_Small",
+                "unit_type": "Pcs",
+                "purchase_price": 4.5,
+                "store_quantity": 52,
+                "sell_price": "5",
+                "sell_quantity": 14,
+                "total": 70,
+                "profit": 7,
+                "grand_total": "",
+                "actualProfit": 14,
+                "actualProfitDetails": [
+                  {
+                    "batchId": "67e17a236f2b14f7c0bc057d",
+                    "purchase_price": 4,
+                    "usedQuantity": 8,
+                    "profitPerUnit": 1,
+                    "batchProfit": 8
+                  },
+                  {
+                    "batchId": "67e17a486f2b14f7c0bc057f",
+                    "purchase_price": 4,
+                    "usedQuantity": 6,
+                    "profitPerUnit": 1,
+                    "batchProfit": 6
+                  }
+                ]
+              },
+              {
+                "productName": "Naty_Olympic_Standerd",
+                "unit_type": "Pcs",
+                "purchase_price": 19,
+                "store_quantity": 29,
+                "sell_price": "20",
+                "sell_quantity": 11,
+                "total": 220,
+                "profit": 11,
+                "grand_total": "",
+                "actualProfit": 23,
+                "actualProfitDetails": [
+                  {
+                    "batchId": "67e17b086f2b14f7c0bc0586",
+                    "purchase_price": 18,
+                    "usedQuantity": 4,
+                    "profitPerUnit": 2,
+                    "batchProfit": 8
+                  },
+                  {
+                    "batchId": "67e17b136f2b14f7c0bc0588",
+                    "purchase_price": 19,
+                    "usedQuantity": 3,
+                    "profitPerUnit": 1,
+                    "batchProfit": 3
+                  },
+                  {
+                    "batchId": "67e17b206f2b14f7c0bc0589",
+                    "purchase_price": 17,
+                    "usedQuantity": 4,
+                    "profitPerUnit": 3,
+                    "batchProfit": 12
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "customer": {
+              "name": "Murad Khan",
+              "address": "Tangail, Dhaka",
+              "mobile": "01436987452",
+              "CustomerId": "CUST000001"
+            },
+            "previous_due": 0,
+            "paid": 0,
+            "discount": 0,
+            "grand_total": 35,
+            "total_due": 35,
+            "due": 35,
+            "subTotal": 30,
+            "total_profit": 3,
+            "c_object_id": "67e17bdb6f2b14f7c0bc058c",
+            "date": "2025-03-24",
+            "subTotal1": 35,
+            "invoice_no": 4,
+            "products": [
+              {
+                "productName": "Naty_Olympic_Small",
+                "unit_type": "Pcs",
+                "purchase_price": 4.5,
+                "store_quantity": 41,
+                "sell_price": "5",
+                "sell_quantity": "7",
+                "total": 35,
+                "profit": 3,
+                "grand_total": "",
+                "actualProfit": 7,
+                "actualProfitDetails": [
+                  {
+                    "batchId": "67e17a236f2b14f7c0bc057d",
+                    "purchase_price": 4,
+                    "usedQuantity": 7,
+                    "profitPerUnit": 1,
+                    "batchProfit": 7
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "customer_previouse_due": {
+          "memu_number": "previouse_90",
+          "address": "Tangail, Dhaka",
+          "name": "Murad Khan",
+          "mobile": "01436987452",
+          "due": 900,
+          "date": "2025-03-24",
+          "CustomerId": "CUST000001",
+          "c_object_id": "67e17bdb6f2b14f7c0bc058c"
+        },
+        "current_due": {
+          "CustomerId": "CUST000001",
+          "name": "Murad Khan",
+          "address": "Tangail, Dhaka",
+          "mobile": "01436987452",
+          "c_object_id": "67e17bdb6f2b14f7c0bc058c",
+          "due": 0,
+          "date": "2025-03-25",
+          "dueInvoice": 6
+        },
+        "due_payment": [
+          {
+            "address": "Tangail, Dhaka",
+            "name": "Murad Khan",
+            "mobile": "01436987452",
+            "CustomerId": "CUST000001",
+            "from": "sales",
+            "unPaid": 900,
+            "paid": 400,
+            "invoice_no": 1,
+            "date": "2025-03-24",
+            "c_object_id": "67e17bdb6f2b14f7c0bc058c",
+            "due": 690
+          },
+          {
+            "address": "Tangail, Dhaka",
+            "name": "Murad Khan",
+            "mobile": "01436987452",
+            "unPaid": 690,
+            "paid": 90,
+            "invoice_no": 2,
+            "due": 600,
+            "date": "2025-03-24",
+            "CustomerId": "CUST000001",
+            "from": "Due Payment",
+            "c_object_id": "67e17bdb6f2b14f7c0bc058c",
+            "dueInvoice": 1
+          }
+        ],
+        "due_history": [
+          {
+            "invoice_no": 1,
+            "c_object_id": "67e17bdb6f2b14f7c0bc058c",
+            "customer_name": "Murad Khan",
+            "customer_address": "Tangail, Dhaka",
+            "customer_mobile": "01436987452",
+            "due": 690,
+            "date": "2025-03-24"
+          },
+          {
+            "invoice_no": 2,
+            "c_object_id": "67e17bdb6f2b14f7c0bc058c",
+            "customer_name": "Murad Khan",
+            "customer_address": "Tangail, Dhaka",
+            "customer_mobile": "01436987452",
+            "due": 600,
+            "date": "2025-03-24"
+          },
+          {
+            "invoice_no": 4,
+            "c_object_id": "67e17bdb6f2b14f7c0bc058c",
+            "customer_name": "Murad Khan",
+            "customer_address": "Tangail, Dhaka",
+            "customer_mobile": "01436987452",
+            "due": 35,
+            "date": "2025-03-24"
+          },
+          {
+            "invoice_no": "Write-off1",
+            "c_object_id": "67e17bdb6f2b14f7c0bc058c",
+            "customer_name": "Murad Khan",
+            "customer_address": "Tangail, Dhaka",
+            "customer_mobile": "01436987452",
+            "due": 0,
+            "date": "2025-03-24"
+          }
+        ],
+        "dueInvoice": 6,
+        "sales_return": [
+          {
+            "ReturnSalesDetailsAndProfitBack": [
+              {
+                "productName": "Naty_Olympic_Small",
+                "unit_type": "Pcs",
+                "sell_price": 5,
+                "sell_quantity": 14,
+                "return_quantity": "3",
+                "return_price": 15,
+                "date": "2025-03-24",
+                "returnPriceDetails": [
+                  {
+                    "batchId": "67e17a236f2b14f7c0bc057d",
+                    "purchase_price": 4,
+                    "usedQuantity": "3",
+                    "profitPerUnit": 1,
+                    "batchProfit": 3
+                  }
+                ],
+                "profit_back": 3
+              },
+              {
+                "productName": "Naty_Olympic_Standerd",
+                "unit_type": "Pcs",
+                "sell_price": 20,
+                "sell_quantity": 11,
+                "return_quantity": "6",
+                "return_price": 120,
+                "date": "2025-03-24",
+                "returnPriceDetails": [
+                  {
+                    "batchId": "67e17b086f2b14f7c0bc0586",
+                    "purchase_price": 18,
+                    "usedQuantity": 4,
+                    "profitPerUnit": 2,
+                    "batchProfit": 8
+                  },
+                  {
+                    "batchId": "67e17b136f2b14f7c0bc0588",
+                    "purchase_price": 19,
+                    "usedQuantity": 2,
+                    "profitPerUnit": 1,
+                    "batchProfit": 2
+                  }
+                ],
+                "profit_back": 10
+              }
+            ],
+            "subTotal1": 135,
+            "date": "2025-03-24",
+            "c_object_id": "67e17bdb6f2b14f7c0bc058c",
+            "paid": 465,
+            "due": 0,
+            "return": 0,
+            "discount_cut": "0",
+            "invoice_no": 3
+          },
+          {
+            "ReturnSalesDetailsAndProfitBack": [
+              {
+                "productName": "Naty_Olympic_Small",
+                "unit_type": "Pcs",
+                "sell_price": 5,
+                "sell_quantity": 7,
+                "return_quantity": "2",
+                "return_price": 10,
+                "date": "2025-03-25",
+                "returnPriceDetails": [
+                  {
+                    "batchId": "67e17a236f2b14f7c0bc057d",
+                    "purchase_price": 4,
+                    "usedQuantity": "2",
+                    "profitPerUnit": 1,
+                    "batchProfit": 2
+                  }
+                ],
+                "profit_back": 2
+              }
+            ],
+            "subTotal1": 10,
+            "date": "2025-03-25",
+            "c_object_id": "67e17bdb6f2b14f7c0bc058c",
+            "paid": 0,
+            "due": 0,
+            "return": 10,
+            "discount_cut": "0",
+            "invoice_no": 5
+          },
+          {
+            "ReturnSalesDetailsAndProfitBack": [
+              {
+                "productName": "Naty_Olympic_Small",
+                "unit_type": "Pcs",
+                "sell_price": 5,
+                "sell_quantity": 7,
+                "return_quantity": "3",
+                "return_price": 15,
+                "date": "2025-03-25",
+                "returnPriceDetails": [
+                  {
+                    "batchId": "67e17a236f2b14f7c0bc057d",
+                    "purchase_price": 4,
+                    "usedQuantity": "3",
+                    "profitPerUnit": 1,
+                    "batchProfit": 3
+                  }
+                ],
+                "profit_back": 3
+              }
+            ],
+            "subTotal1": 15,
+            "date": "2025-03-25",
+            "c_object_id": "67e17bdb6f2b14f7c0bc058c",
+            "paid": 0,
+            "due": 0,
+            "return": 15,
+            "discount_cut": "0",
+            "invoice_no": 6
+          }
+        ],
+        "write_off": [
+          {
+            "address": "Tangail, Dhaka",
+            "name": "Murad Khan",
+            "mobile": "01436987452",
+            "unPaid": 35,
+            "writeOff": 35,
+            "write_off_number": 1,
+            "due": 0,
+            "date": "2025-03-24",
+            "CustomerId": "CUST000001",
+            "c_object_id": "67e17bdb6f2b14f7c0bc058c",
+            "dueInvoice": 4
+          }
+        ],
+        "customer_previous_due": {
+          "address": "Tangail, Dhaka",
+          "mobile": "01436987452",
+          "name": "Murad Khan"
+        }
+      },
+      {
+        "_id": "67e24d780e38159feb9948e8",
+        "name": "Tarek",
+        "address": "Jamurki",
+        "mobile": "01474859632",
+        "currentDate": "2025-03-25",
+        "CustomerId": "CUST000002",
+        "order": [
+          {
+            "customer": {
+              "name": "Tarek",
+              "address": "Jamurki",
+              "mobile": "01474859632",
+              "CustomerId": "CUST000002"
+            },
+            "previous_due": 1200,
+            "paid": 0,
+            "discount": 0,
+            "subTotal": 0,
+            "grand_total": 325,
+            "total_profit": 18,
+            "total_due": 1525,
+            "due": 1525,
+            "c_object_id": "67e24d780e38159feb9948e8",
+            "date": "2025-03-25",
+            "subTotal1": 325,
+            "invoice_no": 7,
+            "products": [
+              {
+                "productName": "Naty_Olympic_Small",
+                "unit_type": "Pcs",
+                "purchase_price": 4.5,
+                "store_quantity": 39,
+                "sell_price": "5",
+                "sell_quantity": 9,
+                "total": 45,
+                "profit": 4,
+                "grand_total": "",
+                "actualProfit": 9,
+                "actualProfitDetails": [
+                  {
+                    "batchId": "67e23e8696da5aa2ae8bd1cc",
+                    "purchase_price": 4,
+                    "usedQuantity": 2,
+                    "profitPerUnit": 1,
+                    "batchProfit": 2
+                  },
+                  {
+                    "batchId": "67e244b21fdaf778830e4748",
+                    "purchase_price": 4,
+                    "usedQuantity": 3,
+                    "profitPerUnit": 1,
+                    "batchProfit": 3
+                  },
+                  {
+                    "batchId": "67e17a236f2b14f7c0bc057d",
+                    "purchase_price": 4,
+                    "usedQuantity": 4,
+                    "profitPerUnit": 1,
+                    "batchProfit": 4
+                  }
+                ]
+              },
+              {
+                "productName": "Naty_Olympic_Standerd",
+                "unit_type": "Pcs",
+                "purchase_price": 19,
+                "store_quantity": 24,
+                "sell_price": "20",
+                "sell_quantity": "14",
+                "total": 280,
+                "profit": 14,
+                "grand_total": "",
+                "actualProfit": 30,
+                "actualProfitDetails": [
+                  {
+                    "batchId": "67e17b086f2b14f7c0bc0586",
+                    "purchase_price": 18,
+                    "usedQuantity": 4,
+                    "profitPerUnit": 2,
+                    "batchProfit": 8
+                  },
+                  {
+                    "batchId": "67e17b136f2b14f7c0bc0588",
+                    "purchase_price": 19,
+                    "usedQuantity": 3,
+                    "profitPerUnit": 1,
+                    "batchProfit": 3
+                  },
+                  {
+                    "batchId": "67e17b206f2b14f7c0bc0589",
+                    "purchase_price": 17,
+                    "usedQuantity": 6,
+                    "profitPerUnit": 3,
+                    "batchProfit": 18
+                  },
+                  {
+                    "batchId": "67e17b346f2b14f7c0bc058a",
+                    "purchase_price": 19,
+                    "usedQuantity": 1,
+                    "profitPerUnit": 1,
+                    "batchProfit": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "customer_previouse_due": {
+          "memu_number": "previouse_40",
+          "address": "Jamurki",
+          "name": "Tarek",
+          "mobile": "01474859632",
+          "due": 1200,
+          "date": "2025-03-25",
+          "CustomerId": "CUST000002",
+          "c_object_id": "67e24d780e38159feb9948e8"
+        },
+        "current_due": {
+          "CustomerId": "CUST000002",
+          "name": "Tarek",
+          "address": "Jamurki",
+          "mobile": "01474859632",
+          "c_object_id": "67e24d780e38159feb9948e8",
+          "due": 0,
+          "date": "2025-03-25",
+          "dueInvoice": 8
+        },
+        "due_history": [
+          {
+            "invoice_no": 7,
+            "c_object_id": "67e24d780e38159feb9948e8",
+            "customer_name": "Tarek",
+            "customer_address": "Jamurki",
+            "customer_mobile": "01474859632",
+            "due": 1525,
+            "date": "2025-03-25"
+          }
+        ],
+        "dueInvoice": 8,
+        "sales_return": [
+          {
+            "ReturnSalesDetailsAndProfitBack": [
+              {
+                "productName": "Naty_Olympic_Small",
+                "unit_type": "Pcs",
+                "sell_price": 5,
+                "sell_quantity": 9,
+                "return_quantity": "3",
+                "return_price": 15,
+                "date": "2025-03-25",
+                "returnPriceDetails": [
+                  {
+                    "batchId": "67e23e8696da5aa2ae8bd1cc",
+                    "purchase_price": 4,
+                    "usedQuantity": 2,
+                    "profitPerUnit": 1,
+                    "batchProfit": 2
+                  },
+                  {
+                    "batchId": "67e244b21fdaf778830e4748",
+                    "purchase_price": 4,
+                    "usedQuantity": 1,
+                    "profitPerUnit": 1,
+                    "batchProfit": 1
+                  }
+                ],
+                "profit_back": 3
+              },
+              {
+                "productName": "Naty_Olympic_Standerd",
+                "unit_type": "Pcs",
+                "sell_price": 20,
+                "sell_quantity": 14,
+                "return_quantity": "4",
+                "return_price": 80,
+                "date": "2025-03-25",
+                "returnPriceDetails": [
+                  {
+                    "batchId": "67e17b086f2b14f7c0bc0586",
+                    "purchase_price": 18,
+                    "usedQuantity": 4,
+                    "profitPerUnit": 2,
+                    "batchProfit": 8
+                  }
+                ],
+                "profit_back": 8
+              }
+            ],
+            "subTotal1": 95,
+            "date": "2025-03-25",
+            "c_object_id": "67e24d780e38159feb9948e8",
+            "paid": 1430,
+            "due": 0,
+            "return": 0,
+            "previous_due": "",
+            "discount_cut": "0",
+            "invoice_no": 8
+          }
+        ]
+      },
+      {
+        "_id": "67e253824de0037fb7fe4719",
+        "name": "Fahad",
+        "address": "Gurail",
+        "mobile": "01425367595",
+        "currentDate": "2025-03-25",
+        "CustomerId": "CUST000003",
+        "order": [
+          {
+            "customer": {
+              "name": "Fahad",
+              "address": "Gurail",
+              "mobile": "01425367595",
+              "CustomerId": "CUST000003"
+            },
+            "previous_due": 300,
+            "paid": "200",
+            "discount": 0,
+            "subTotal": 0,
+            "grand_total": 220,
+            "total_profit": 15,
+            "total_due": 520,
+            "due": 320,
+            "c_object_id": "67e253824de0037fb7fe4719",
+            "date": "2025-03-25",
+            "subTotal1": 220,
+            "invoice_no": 9,
+            "products": [
+              {
+                "productName": "Naty_Olympic_Small",
+                "unit_type": "Pcs",
+                "purchase_price": 4.5,
+                "store_quantity": 33,
+                "sell_quantity": 16,
+                "total": 80,
+                "profit": 8,
+                "grand_total": "",
+                "sell_price": "5",
+                "actualProfit": 16,
+                "actualProfitDetails": [
+                  {
+                    "batchId": "67e23e8696da5aa2ae8bd1cc",
+                    "purchase_price": 4,
+                    "usedQuantity": 2,
+                    "profitPerUnit": 1,
+                    "batchProfit": 2
+                  },
+                  {
+                    "batchId": "67e244b21fdaf778830e4748",
+                    "purchase_price": 4,
+                    "usedQuantity": 3,
+                    "profitPerUnit": 1,
+                    "batchProfit": 3
+                  },
+                  {
+                    "batchId": "67e24f2b0e38159feb9948ea",
+                    "purchase_price": 4,
+                    "usedQuantity": 2,
+                    "profitPerUnit": 1,
+                    "batchProfit": 2
+                  },
+                  {
+                    "batchId": "67e24f2c0e38159feb9948eb",
+                    "purchase_price": 4,
+                    "usedQuantity": 1,
+                    "profitPerUnit": 1,
+                    "batchProfit": 1
+                  },
+                  {
+                    "batchId": "67e17a236f2b14f7c0bc057d",
+                    "purchase_price": 4,
+                    "usedQuantity": 8,
+                    "profitPerUnit": 1,
+                    "batchProfit": 8
+                  }
+                ]
+              },
+              {
+                "productName": "Naty_Olympic_Standerd",
+                "unit_type": "Pcs",
+                "purchase_price": 19,
+                "store_quantity": 14,
+                "sell_price": "20",
+                "sell_quantity": 7,
+                "total": 140,
+                "profit": 7,
+                "grand_total": "",
+                "actualProfit": 14,
+                "actualProfitDetails": [
+                  {
+                    "batchId": "67e24f2c0e38159feb9948ec",
+                    "purchase_price": 18,
+                    "usedQuantity": 4,
+                    "profitPerUnit": 2,
+                    "batchProfit": 8
+                  },
+                  {
+                    "batchId": "67e17b086f2b14f7c0bc0586",
+                    "purchase_price": 18,
+                    "usedQuantity": 3,
+                    "profitPerUnit": 2,
+                    "batchProfit": 6
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "customer": {
+              "name": "Fahad",
+              "address": "Gurail",
+              "mobile": "01425367595",
+              "CustomerId": "CUST000003"
+            },
+            "previous_due": 0,
+            "paid": 0,
+            "discount": 0,
+            "subTotal": 0,
+            "grand_total": 35,
+            "total_profit": 3,
+            "total_due": 35,
+            "due": 35,
+            "c_object_id": "67e253824de0037fb7fe4719",
+            "date": "2025-03-26",
+            "subTotal1": 35,
+            "invoice_no": 10,
+            "products": [
+              {
+                "productName": "Naty_Olympic_Small",
+                "unit_type": "Pcs",
+                "purchase_price": 4.5,
+                "store_quantity": 17,
+                "sell_price": "5",
+                "sell_quantity": 7,
+                "total": 35,
+                "profit": 3,
+                "grand_total": "",
+                "actualProfit": 7,
+                "actualProfitDetails": [
+                  {
+                    "batchId": "67e23e8696da5aa2ae8bd1cc",
+                    "purchase_price": 4,
+                    "usedQuantity": 2,
+                    "profitPerUnit": 1,
+                    "batchProfit": 2
+                  },
+                  {
+                    "batchId": "67e244b21fdaf778830e4748",
+                    "purchase_price": 4,
+                    "usedQuantity": 3,
+                    "profitPerUnit": 1,
+                    "batchProfit": 3
+                  },
+                  {
+                    "batchId": "67e24f2b0e38159feb9948ea",
+                    "purchase_price": 4,
+                    "usedQuantity": 2,
+                    "profitPerUnit": 1,
+                    "batchProfit": 2
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "customer_previouse_due": {
+          "memu_number": "previouse_45",
+          "address": "Gurail",
+          "name": "Fahad",
+          "mobile": "01425367595",
+          "due": 300,
+          "date": "2025-03-25",
+          "CustomerId": "CUST000003",
+          "c_object_id": "67e253824de0037fb7fe4719"
+        },
+        "current_due": {
+          "CustomerId": "CUST000003",
+          "name": "Fahad",
+          "address": "Gurail",
+          "mobile": "01425367595",
+          "c_object_id": "67e253824de0037fb7fe4719",
+          "due": 15,
+          "date": "2025-03-26",
+          "dueInvoice": 11
+        },
+        "due_payment": [
+          {
+            "address": "Fahad",
+            "name": "Gurail",
+            "mobile": "01425367595",
+            "CustomerId": "CUST000003",
+            "from": "sales",
+            "unPaid": 300,
+            "paid": "200",
+            "invoice_no": 9,
+            "date": "2025-03-25",
+            "c_object_id": "67e253824de0037fb7fe4719",
+            "due": 320
+          },
+          {
+            "address": "Gurail",
+            "name": "Fahad",
+            "mobile": "01425367595",
+            "unPaid": 35,
+            "paid": 20,
+            "invoice_no": 11,
+            "due": 15,
+            "date": "2025-03-26",
+            "CustomerId": "CUST000003",
+            "from": "Due Payment",
+            "c_object_id": "67e253824de0037fb7fe4719",
+            "dueInvoice": 10
+          }
+        ],
+        "due_history": [
+          {
+            "invoice_no": 9,
+            "c_object_id": "67e253824de0037fb7fe4719",
+            "customer_name": "Fahad",
+            "customer_address": "Gurail",
+            "customer_mobile": "01425367595",
+            "due": 320,
+            "date": "2025-03-25"
+          },
+          {
+            "invoice_no": "Write-off2",
+            "c_object_id": "67e253824de0037fb7fe4719",
+            "customer_name": "Fahad",
+            "customer_address": "Gurail",
+            "customer_mobile": "01425367595",
+            "due": 0,
+            "date": "2025-03-25"
+          },
+          {
+            "invoice_no": 10,
+            "c_object_id": "67e253824de0037fb7fe4719",
+            "customer_name": "Fahad",
+            "customer_address": "Gurail",
+            "customer_mobile": "01425367595",
+            "due": 35,
+            "date": "2025-03-26"
+          },
+          {
+            "invoice_no": 11,
+            "c_object_id": "67e253824de0037fb7fe4719",
+            "customer_name": "Fahad",
+            "customer_address": "Gurail",
+            "customer_mobile": "01425367595",
+            "due": 15,
+            "date": "2025-03-26"
+          }
+        ],
+        "dueInvoice": 10,
+        "write_off": [
+          {
+            "address": "Gurail",
+            "name": "Fahad",
+            "mobile": "01425367595",
+            "unPaid": 320,
+            "writeOff": 320,
+            "write_off_number": 2,
+            "due": 0,
+            "date": "2025-03-25",
+            "CustomerId": "CUST000003",
+            "c_object_id": "67e253824de0037fb7fe4719",
+            "dueInvoice": 9
+          }
+        ]
+      },
+      {
+        "_id": "67e3a0091a426fa8b1d5bd68",
+        "name": "Nahid",
+        "address": "Dhaka",
+        "mobile": "01352416487",
+        "currentDate": "2025-03-26",
+        "CustomerId": "CUST000004",
+        "order": [
+          {
+            "customer": {
+              "name": "Nahid",
+              "address": "Dhaka",
+              "mobile": "01352416487",
+              "CustomerId": "CUST000004"
+            },
+            "previous_due": 950,
+            "paid": "500",
+            "discount": 0,
+            "subTotal": 0,
+            "grand_total": 60,
+            "total_profit": 4,
+            "total_due": 1010,
+            "due": 510,
+            "c_object_id": "67e3a0091a426fa8b1d5bd68",
+            "date": "2025-03-26",
+            "subTotal1": 60,
+            "invoice_no": 12,
+            "products": [
+              {
+                "productName": "Naty_Olympic_Small",
+                "unit_type": "Pcs",
+                "purchase_price": 4.5,
+                "store_quantity": 10,
+                "sell_price": "5",
+                "sell_quantity": 4,
+                "total": 20,
+                "profit": 2,
+                "grand_total": "",
+                "actualProfit": 4,
+                "actualProfitDetails": [
+                  {
+                    "batchId": "67e23e8696da5aa2ae8bd1cc",
+                    "purchase_price": 4,
+                    "usedQuantity": 2,
+                    "profitPerUnit": 1,
+                    "batchProfit": 2
+                  },
+                  {
+                    "batchId": "67e244b21fdaf778830e4748",
+                    "purchase_price": 4,
+                    "usedQuantity": 2,
+                    "profitPerUnit": 1,
+                    "batchProfit": 2
+                  }
+                ]
+              },
+              {
+                "productName": "Naty_Olympic_Standerd",
+                "unit_type": "Pcs",
+                "purchase_price": 19,
+                "store_quantity": 7,
+                "sell_price": "20",
+                "sell_quantity": 2,
+                "total": 40,
+                "profit": 2,
+                "grand_total": "",
+                "actualProfit": 4,
+                "actualProfitDetails": [
+                  {
+                    "batchId": "67e24f2c0e38159feb9948ec",
+                    "purchase_price": 18,
+                    "usedQuantity": 2,
+                    "profitPerUnit": 2,
+                    "batchProfit": 4
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "customer_previouse_due": {
+          "memu_number": "previouse_54",
+          "address": "Dhaka",
+          "name": "Nahid",
+          "mobile": "01352416487",
+          "due": 950,
+          "date": "2025-03-26",
+          "CustomerId": "CUST000004",
+          "c_object_id": "67e3a0091a426fa8b1d5bd68"
+        },
+        "current_due": {
+          "CustomerId": "CUST000004",
+          "name": "Nahid",
+          "address": "Dhaka",
+          "mobile": "01352416487",
+          "c_object_id": "67e3a0091a426fa8b1d5bd68",
+          "due": 10,
+          "date": "2025-03-26",
+          "dueInvoice": 13
+        },
+        "due_payment": [
+          {
+            "address": "Nahid",
+            "name": "Dhaka",
+            "mobile": "01352416487",
+            "CustomerId": "CUST000004",
+            "from": "sales",
+            "unPaid": 950,
+            "paid": "500",
+            "invoice_no": 12,
+            "date": "2025-03-26",
+            "c_object_id": "67e3a0091a426fa8b1d5bd68",
+            "due": 510
+          },
+          {
+            "address": "Dhaka",
+            "name": "Nahid",
+            "mobile": "01352416487",
+            "unPaid": 510,
+            "paid": 300,
+            "invoice_no": 13,
+            "due": 210,
+            "date": "2025-03-26",
+            "CustomerId": "CUST000004",
+            "from": "Due Payment",
+            "c_object_id": "67e3a0091a426fa8b1d5bd68",
+            "dueInvoice": 12
+          },
+          {
+            "address": "Dhaka",
+            "name": "Nahid",
+            "mobile": "01352416487",
+            "unPaid": 510,
+            "paid": 500,
+            "invoice_no": 13,
+            "due": 10,
+            "date": "2025-03-26",
+            "CustomerId": "CUST000004",
+            "from": "Due Payment",
+            "c_object_id": "67e3a0091a426fa8b1d5bd68",
+            "dueInvoice": 12
+          }
+        ],
+        "due_history": [
+          {
+            "invoice_no": 12,
+            "c_object_id": "67e3a0091a426fa8b1d5bd68",
+            "customer_name": "Nahid",
+            "customer_address": "Dhaka",
+            "customer_mobile": "01352416487",
+            "due": 510,
+            "date": "2025-03-26"
+          },
+          {
+            "invoice_no": 13,
+            "c_object_id": "67e3a0091a426fa8b1d5bd68",
+            "customer_name": "Nahid",
+            "customer_address": "Dhaka",
+            "customer_mobile": "01352416487",
+            "due": 210,
+            "date": "2025-03-26"
+          },
+          {
+            "invoice_no": 13,
+            "c_object_id": "67e3a0091a426fa8b1d5bd68",
+            "customer_name": "Nahid",
+            "customer_address": "Dhaka",
+            "customer_mobile": "01352416487",
+            "due": 10,
+            "date": "2025-03-26"
+          }
+        ],
+        "dueInvoice": 12
+      },
+      {
+        "_id": "67e3b69e2163f8bb9c24c409",
+        "name": "Buri",
+        "address": "Tangail",
+        "mobile": "01425361425",
+        "currentDate": "2025-03-26",
+        "CustomerId": "CUST000005",
+        "order": [
+          {
+            "customer": {
+              "name": "Buri",
+              "address": "Tangail",
+              "mobile": "01425361425",
+              "CustomerId": "CUST000005"
+            },
+            "previous_due": 870,
+            "paid": "500",
+            "discount": 0,
+            "subTotal": 0,
+            "grand_total": 90,
+            "total_profit": 5,
+            "total_due": 960,
+            "due": 460,
+            "c_object_id": "67e3b69e2163f8bb9c24c409",
+            "date": "2025-03-26",
+            "subTotal1": 90,
+            "invoice_no": 14,
+            "products": [
+              {
+                "productName": "Naty_Olympic_Small",
+                "unit_type": "Pcs",
+                "purchase_price": 4.5,
+                "store_quantity": 6,
+                "sell_price": "5",
+                "sell_quantity": 2,
+                "total": 10,
+                "profit": 1,
+                "grand_total": "",
+                "actualProfit": 2,
+                "actualProfitDetails": [
+                  {
+                    "batchId": "67e23e8696da5aa2ae8bd1cc",
+                    "purchase_price": 4,
+                    "usedQuantity": 2,
+                    "profitPerUnit": 1,
+                    "batchProfit": 2
+                  }
+                ]
+              },
+              {
+                "productName": "Naty_Olympic_Standerd",
+                "unit_type": "Pcs",
+                "purchase_price": 19,
+                "store_quantity": 5,
+                "sell_price": "20",
+                "sell_quantity": 4,
+                "total": 80,
+                "profit": 4,
+                "grand_total": "",
+                "actualProfit": 8,
+                "actualProfitDetails": [
+                  {
+                    "batchId": "67e24f2c0e38159feb9948ec",
+                    "purchase_price": 18,
+                    "usedQuantity": 4,
+                    "profitPerUnit": 2,
+                    "batchProfit": 8
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "customer_previouse_due": {
+          "memu_number": "previouse_12",
+          "address": "Tangail",
+          "name": "Buri",
+          "mobile": "01425361425",
+          "due": 870,
+          "date": "2025-03-26",
+          "CustomerId": "CUST000005",
+          "c_object_id": "67e3b69e2163f8bb9c24c409"
+        },
+        "current_due": {
+          "CustomerId": "CUST000005",
+          "name": "Buri",
+          "address": "Tangail",
+          "mobile": "01425361425",
+          "c_object_id": "67e3b69e2163f8bb9c24c409",
+          "due": 160,
+          "date": "2025-03-26",
+          "dueInvoice": 15
+        },
+        "due_payment": [
+          {
+            "address": "Buri",
+            "name": "Tangail",
+            "mobile": "01425361425",
+            "CustomerId": "CUST000005",
+            "from": "sales",
+            "unPaid": 870,
+            "paid": "500",
+            "invoice_no": 14,
+            "date": "2025-03-26",
+            "c_object_id": "67e3b69e2163f8bb9c24c409",
+            "due": 460
+          },
+          {
+            "address": "Tangail",
+            "name": "Buri",
+            "mobile": "01425361425",
+            "unPaid": 460,
+            "paid": 200,
+            "invoice_no": 15,
+            "due": 260,
+            "date": "2025-03-26",
+            "CustomerId": "CUST000005",
+            "from": "Due Payment",
+            "c_object_id": "67e3b69e2163f8bb9c24c409",
+            "dueInvoice": 14
+          },
+          {
+            "address": "Tangail",
+            "name": "Buri",
+            "mobile": "01425361425",
+            "unPaid": 460,
+            "paid": 300,
+            "invoice_no": 15,
+            "due": 160,
+            "date": "2025-03-26",
+            "CustomerId": "CUST000005",
+            "from": "Due Payment",
+            "c_object_id": "67e3b69e2163f8bb9c24c409",
+            "dueInvoice": 14
+          }
+        ],
+        "due_history": [
+          {
+            "invoice_no": 14,
+            "c_object_id": "67e3b69e2163f8bb9c24c409",
+            "customer_name": "Buri",
+            "customer_address": "Tangail",
+            "customer_mobile": "01425361425",
+            "due": 460,
+            "date": "2025-03-26"
+          },
+          {
+            "invoice_no": 15,
+            "c_object_id": "67e3b69e2163f8bb9c24c409",
+            "customer_name": "Buri",
+            "customer_address": "Tangail",
+            "customer_mobile": "01425361425",
+            "due": 260,
+            "date": "2025-03-26"
+          },
+          {
+            "invoice_no": 15,
+            "c_object_id": "67e3b69e2163f8bb9c24c409",
+            "customer_name": "Buri",
+            "customer_address": "Tangail",
+            "customer_mobile": "01425361425",
+            "due": 160,
+            "date": "2025-03-26"
+          }
+        ],
+        "dueInvoice": 14
+      },
+      {
+        "_id": "67e3befe9b5fcef4f3669f5d",
+        "name": "Rahul",
+        "address": "Tangail",
+        "mobile": "01758694525",
+        "currentDate": "2025-03-26",
+        "CustomerId": "CUST000006",
+        "order": [
+          {
+            "customer": {
+              "name": "Rahul",
+              "address": "Tangail",
+              "mobile": "01758694525",
+              "CustomerId": "CUST000006"
+            },
+            "previous_due": 600,
+            "paid": "400",
+            "discount": 0,
+            "subTotal": 0,
+            "grand_total": 40,
+            "total_profit": 3,
+            "total_due": 640,
+            "due": 240,
+            "c_object_id": "67e3befe9b5fcef4f3669f5d",
+            "date": "2025-03-26",
+            "subTotal1": 40,
+            "invoice_no": 16,
+            "products": [
+              {
+                "productName": "Naty_Olympic_Small",
+                "unit_type": "Pcs",
+                "purchase_price": 4.5,
+                "store_quantity": 4,
+                "sell_price": "5",
+                "sell_quantity": 4,
+                "total": 20,
+                "profit": 2,
+                "grand_total": "",
+                "actualProfit": 4,
+                "actualProfitDetails": [
+                  {
+                    "batchId": "67e23e8696da5aa2ae8bd1cc",
+                    "purchase_price": 4,
+                    "usedQuantity": 2,
+                    "profitPerUnit": 1,
+                    "batchProfit": 2
+                  },
+                  {
+                    "batchId": "67e244b21fdaf778830e4748",
+                    "purchase_price": 4,
+                    "usedQuantity": 2,
+                    "profitPerUnit": 1,
+                    "batchProfit": 2
+                  }
+                ]
+              },
+              {
+                "productName": "Naty_Olympic_Standerd",
+                "unit_type": "Pcs",
+                "purchase_price": 19,
+                "store_quantity": 1,
+                "sell_price": "20",
+                "sell_quantity": 1,
+                "total": 20,
+                "profit": 1,
+                "grand_total": "",
+                "actualProfit": 2,
+                "actualProfitDetails": [
+                  {
+                    "batchId": "67e24f2c0e38159feb9948ec",
+                    "purchase_price": 18,
+                    "usedQuantity": 1,
+                    "profitPerUnit": 2,
+                    "batchProfit": 2
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "customer_previouse_due": {
+          "memu_number": "previouse_17",
+          "address": "Tangail",
+          "name": "Rahul",
+          "mobile": "01758694525",
+          "due": 600,
+          "date": "2025-03-26",
+          "CustomerId": "CUST000006",
+          "c_object_id": "67e3befe9b5fcef4f3669f5d"
+        },
+        "current_due": {
+          "CustomerId": "CUST000006",
+          "name": "Rahul",
+          "address": "Tangail",
+          "mobile": "01758694525",
+          "c_object_id": "67e3befe9b5fcef4f3669f5d",
+          "due": 140,
+          "date": "2025-03-26",
+          "dueInvoice": 17
+        },
+        "due_payment": [
+          {
+            "address": "Rahul",
+            "name": "Tangail",
+            "mobile": "01758694525",
+            "CustomerId": "CUST000006",
+            "from": "sales",
+            "unPaid": 600,
+            "paid": "400",
+            "invoice_no": 16,
+            "date": "2025-03-26",
+            "c_object_id": "67e3befe9b5fcef4f3669f5d",
+            "due": 240
+          },
+          {
+            "address": "Tangail",
+            "name": "Rahul",
+            "mobile": "01758694525",
+            "unPaid": 240,
+            "paid": 200,
+            "invoice_no": 17,
+            "due": 40,
+            "date": "2025-03-26",
+            "CustomerId": "CUST000006",
+            "from": "Due Payment",
+            "c_object_id": "67e3befe9b5fcef4f3669f5d",
+            "dueInvoice": 16
+          },
+          {
+            "address": "Tangail",
+            "name": "Rahul",
+            "mobile": "01758694525",
+            "unPaid": 240,
+            "paid": 100,
+            "invoice_no": 17,
+            "due": 140,
+            "date": "2025-03-26",
+            "CustomerId": "CUST000006",
+            "from": "Due Payment",
+            "c_object_id": "67e3befe9b5fcef4f3669f5d",
+            "dueInvoice": 16
+          }
+        ],
+        "due_history": [
+          {
+            "invoice_no": 16,
+            "c_object_id": "67e3befe9b5fcef4f3669f5d",
+            "customer_name": "Rahul",
+            "customer_address": "Tangail",
+            "customer_mobile": "01758694525",
+            "due": 240,
+            "date": "2025-03-26"
+          },
+          {
+            "invoice_no": 17,
+            "c_object_id": "67e3befe9b5fcef4f3669f5d",
+            "customer_name": "Rahul",
+            "customer_address": "Tangail",
+            "customer_mobile": "01758694525",
+            "due": 40,
+            "date": "2025-03-26"
+          },
+          {
+            "invoice_no": 17,
+            "c_object_id": "67e3befe9b5fcef4f3669f5d",
+            "customer_name": "Rahul",
+            "customer_address": "Tangail",
+            "customer_mobile": "01758694525",
+            "due": 140,
+            "date": "2025-03-26"
+          }
+        ],
+        "dueInvoice": 16
+      },
+      {
+        "_id": "67e3ca65d6ab06fc5dc84092",
+        "name": "Shuvo",
+        "address": "Dhaka",
+        "mobile": "01425369587",
+        "currentDate": "2025-03-26",
+        "CustomerId": "CUST000007",
+        "order": [
+          {
+            "customer": {
+              "name": "Shuvo",
+              "address": "Dhaka",
+              "mobile": "01425369587",
+              "CustomerId": "CUST000007"
+            },
+            "previous_due": 500,
+            "paid": "800",
+            "discount": "25",
+            "subTotal": 0,
+            "grand_total": 800,
+            "total_profit": 70,
+            "total_due": 1300,
+            "due": 500,
+            "c_object_id": "67e3ca65d6ab06fc5dc84092",
+            "date": "2025-03-26",
+            "subTotal1": 825,
+            "invoice_no": 18,
+            "products": [
+              {
+                "productName": "Naty_Olympic_Small",
+                "unit_type": "Pcs",
+                "purchase_price": 4,
+                "store_quantity": 120,
+                "sell_price": "5",
+                "sell_quantity": 25,
+                "total": 125,
+                "profit": 25,
+                "grand_total": "",
+                "actualProfit": 25,
+                "actualProfitDetails": [
+                  {
+                    "batchId": "67e3cb33d6ab06fc5dc84093",
+                    "purchase_price": 4,
+                    "usedQuantity": 25,
+                    "profitPerUnit": 1,
+                    "batchProfit": 25
+                  }
+                ]
+              },
+              {
+                "productName": "Naty_Olympic_Standerd",
+                "unit_type": "Pcs",
+                "purchase_price": 18,
+                "store_quantity": 120,
+                "sell_price": "20",
+                "sell_quantity": 35,
+                "total": 700,
+                "profit": 70,
+                "grand_total": "",
+                "actualProfit": 70,
+                "actualProfitDetails": [
+                  {
+                    "batchId": "67e3cb46d6ab06fc5dc84094",
+                    "purchase_price": 18,
+                    "usedQuantity": 35,
+                    "profitPerUnit": 2,
+                    "batchProfit": 70
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "customer_previouse_due": {
+          "memu_number": "previouse_16",
+          "address": "Dhaka",
+          "name": "Shuvo",
+          "mobile": "01425369587",
+          "due": 500,
+          "date": "2025-03-26",
+          "CustomerId": "CUST000007",
+          "c_object_id": "67e3ca65d6ab06fc5dc84092"
+        },
+        "current_due": {
+          "CustomerId": "CUST000007",
+          "name": "Shuvo",
+          "address": "Dhaka",
+          "mobile": "01425369587",
+          "c_object_id": "67e3ca65d6ab06fc5dc84092",
+          "due": 100,
+          "date": "2025-03-26",
+          "dueInvoice": 20
+        },
+        "due_payment": [
+          {
+            "address": "Shuvo",
+            "name": "Dhaka",
+            "mobile": "01425369587",
+            "CustomerId": "CUST000007",
+            "from": "sales",
+            "unPaid": 500,
+            "paid": 500,
+            "invoice_no": 18,
+            "date": "2025-03-26",
+            "c_object_id": "67e3ca65d6ab06fc5dc84092",
+            "due": 500
+          },
+          {
+            "address": "Dhaka",
+            "name": "Shuvo",
+            "mobile": "01425369587",
+            "unPaid": 500,
+            "paid": 350,
+            "invoice_no": 19,
+            "due": 150,
+            "date": "2025-03-26",
+            "CustomerId": "CUST000007",
+            "from": "Due Payment",
+            "c_object_id": "67e3ca65d6ab06fc5dc84092",
+            "dueInvoice": 18
+          },
+          {
+            "address": "Dhaka",
+            "name": "Shuvo",
+            "mobile": "01425369587",
+            "unPaid": 150,
+            "paid": 50,
+            "invoice_no": 20,
+            "due": 100,
+            "date": "2025-03-26",
+            "CustomerId": "CUST000007",
+            "from": "Due Payment",
+            "c_object_id": "67e3ca65d6ab06fc5dc84092",
+            "dueInvoice": 19
+          }
+        ],
+        "due_history": [
+          {
+            "invoice_no": 18,
+            "c_object_id": "67e3ca65d6ab06fc5dc84092",
+            "customer_name": "Shuvo",
+            "customer_address": "Dhaka",
+            "customer_mobile": "01425369587",
+            "due": 500,
+            "date": "2025-03-26"
+          },
+          {
+            "invoice_no": 19,
+            "c_object_id": "67e3ca65d6ab06fc5dc84092",
+            "customer_name": "Shuvo",
+            "customer_address": "Dhaka",
+            "customer_mobile": "01425369587",
+            "due": 150,
+            "date": "2025-03-26"
+          },
+          {
+            "invoice_no": 20,
+            "c_object_id": "67e3ca65d6ab06fc5dc84092",
+            "customer_name": "Shuvo",
+            "customer_address": "Dhaka",
+            "customer_mobile": "01425369587",
+            "due": 100,
+            "date": "2025-03-26"
+          }
+        ],
+        "dueInvoice": 18
+      },
+      {
+        "_id": "67e422b9f18dc9a11b1ba966",
+        "name": "Salman Boss",
+        "address": "Kalihati",
+        "mobile": "01754327897",
+        "currentDate": "2025-03-26",
+        "CustomerId": "CUST000008",
+        "order": [],
+        "customer_previouse_due": {
+          "memu_number": "previouse_87",
+          "address": "Kalihati",
+          "name": "Salman Boss",
+          "mobile": "01754327897",
+          "due": 700,
+          "date": "2025-03-26",
+          "CustomerId": "CUST000008",
+          "c_object_id": "67e422b9f18dc9a11b1ba966"
+        },
+        "current_due": {
+          "CustomerId": "CUST000008",
+          "name": "Salman Boss",
+          "address": "Kalihati",
+          "mobile": "01754327897",
+          "c_object_id": "67e422b9f18dc9a11b1ba966",
+          "due": 200,
+          "date": "2025-03-26",
+          "dueInvoice": 21
+        },
+        "due_payment": [
+          {
+            "address": "Kalihati",
+            "name": "Salman Boss",
+            "mobile": "01754327897",
+            "unPaid": 700,
+            "paid": 500,
+            "invoice_no": 21,
+            "due": 200,
+            "date": "2025-03-26",
+            "CustomerId": "CUST000008",
+            "from": "Due Payment",
+            "c_object_id": "67e422b9f18dc9a11b1ba966",
+            "dueInvoice": null
+          }
+        ],
+        "due_history": [
+          {
+            "invoice_no": 21,
+            "c_object_id": "67e422b9f18dc9a11b1ba966",
+            "customer_name": "Salman Boss",
+            "customer_address": "Kalihati",
+            "customer_mobile": "01754327897",
+            "due": 200,
+            "date": "2025-03-26"
+          }
+        ]
+      }
+    ],
+    "supplier": [
+      {
+        "_id": "67e1796d6f2b14f7c0bc057a",
+        "type": "Supplier",
+        "supplier_name": "Fahim Khan",
+        "company_name": "Olympic",
+        "mobile_number": "01415262428",
+        "collectionName": "Fahim_Khan_Olympic",
+        "transaction": [
+          {
+            "name": "Fahim_Khan_Olympic",
+            "date": "2025-03-24",
+            "paymentType": "bill",
+            "amount": 32,
+            "supplierId": "67e1796d6f2b14f7c0bc057a",
+            "sl": 1
+          },
+          {
+            "name": "Fahim_Khan_Olympic",
+            "date": "2025-03-24",
+            "paymentType": "bill",
+            "amount": 28,
+            "supplierId": "67e1796d6f2b14f7c0bc057a",
+            "sl": 2
+          },
+          {
+            "name": "Fahim_Khan_Olympic",
+            "date": "2025-03-24",
+            "paymentType": "bill",
+            "amount": 45,
+            "supplierId": "67e1796d6f2b14f7c0bc057a",
+            "sl": 3
+          },
+          {
+            "name": "Fahim_Khan_Olympic",
+            "date": "2025-03-24",
+            "paymentType": "bill",
+            "amount": 9,
+            "supplierId": "67e1796d6f2b14f7c0bc057a",
+            "sl": 4
+          },
+          {
+            "name": "Fahim_Khan_Olympic",
+            "date": "2025-03-24",
+            "paymentType": "bill",
+            "amount": 36,
+            "supplierId": "67e1796d6f2b14f7c0bc057a",
+            "sl": 5
+          },
+          {
+            "name": "Fahim_Khan_Olympic",
+            "date": "2025-03-24",
+            "paymentType": "bill",
+            "amount": 24,
+            "supplierId": "67e1796d6f2b14f7c0bc057a",
+            "sl": 6
+          },
+          {
+            "name": "Fahim_Khan_Olympic",
+            "date": "2025-03-24",
+            "paymentType": "bill",
+            "amount": 24,
+            "supplierId": "67e1796d6f2b14f7c0bc057a",
+            "sl": 7
+          },
+          {
+            "name": "Fahim_Khan_Olympic",
+            "date": "2025-03-24",
+            "paymentType": "bill",
+            "amount": 22.5,
+            "supplierId": "67e1796d6f2b14f7c0bc057a",
+            "sl": 8
+          },
+          {
+            "name": "Fahim_Khan_Olympic",
+            "date": "2025-03-24",
+            "paymentType": "bill",
+            "amount": 72,
+            "supplierId": "67e1796d6f2b14f7c0bc057a",
+            "sl": 9
+          },
+          {
+            "name": "Fahim_Khan_Olympic",
+            "date": "2025-03-24",
+            "paymentType": "bill",
+            "amount": 57,
+            "supplierId": "67e1796d6f2b14f7c0bc057a",
+            "sl": 10
+          },
+          {
+            "name": "Fahim_Khan_Olympic",
+            "date": "2025-03-24",
+            "paymentType": "bill",
+            "amount": 102,
+            "supplierId": "67e1796d6f2b14f7c0bc057a",
+            "sl": 11
+          },
+          {
+            "name": "Fahim_Khan_Olympic",
+            "date": "2025-03-24",
+            "paymentType": "bill",
+            "amount": 133,
+            "supplierId": "67e1796d6f2b14f7c0bc057a",
+            "sl": 12
+          },
+          {
+            "name": "Fahim_Khan_Olympic",
+            "date": "2025-03-24",
+            "paymentType": "bill",
+            "amount": 171,
+            "supplierId": "67e1796d6f2b14f7c0bc057a",
+            "sl": 13
+          },
+          {
+            "name": "Fahim_Khan_Olympic",
+            "date": "2025-03-26",
+            "paymentType": "bill",
+            "amount": 480,
+            "supplierId": "67e1796d6f2b14f7c0bc057a",
+            "sl": 22
+          },
+          {
+            "name": "Fahim_Khan_Olympic",
+            "date": "2025-03-26",
+            "paymentType": "bill",
+            "amount": 2160,
+            "supplierId": "67e1796d6f2b14f7c0bc057a",
+            "sl": 23
+          }
+        ]
+      }
+    ],
+    "purchase-history": [
+      {
+        "_id": "67e17a236f2b14f7c0bc057d",
+        "product_name": "Naty_Olympic_Small",
+        "company_name": "Olympic",
+        "purchase_price": 4,
+        "quantity": 8,
+        "unit_type": "Pcs",
+        "total": 32,
+        "grand_total": 32,
+        "per_unit_price": 4,
+        "date": "2025-03-24",
+        "sl": 1,
+        "supplier_name": "Fahim Khan Olympic"
+      },
+      {
+        "_id": "67e17a486f2b14f7c0bc057f",
+        "product_name": "Naty_Olympic_Small",
+        "company_name": "Olympic",
+        "purchase_price": 4,
+        "quantity": 7,
+        "unit_type": "Pcs",
+        "total": 28,
+        "grand_total": 28,
+        "per_unit_price": 4,
+        "date": "2025-03-24",
+        "sl": 2,
+        "supplier_name": "Fahim Khan Olympic"
+      },
+      {
+        "_id": "67e17a576f2b14f7c0bc0580",
+        "product_name": "Naty_Olympic_Small",
+        "company_name": "Olympic",
+        "purchase_price": 5,
+        "quantity": 9,
+        "unit_type": "Pcs",
+        "total": 45,
+        "grand_total": 45,
+        "per_unit_price": 5,
+        "date": "2025-03-24",
+        "sl": 3,
+        "supplier_name": "Fahim Khan Olympic"
+      },
+      {
+        "_id": "67e17a706f2b14f7c0bc0581",
+        "product_name": "Naty_Olympic_Small",
+        "company_name": "Olympic",
+        "purchase_price": 4.5,
+        "quantity": 2,
+        "unit_type": "Pcs",
+        "total": 9,
+        "grand_total": 9,
+        "per_unit_price": 4.5,
+        "date": "2025-03-24",
+        "sl": 4,
+        "supplier_name": "Fahim Khan Olympic"
+      },
+      {
+        "_id": "67e17a806f2b14f7c0bc0582",
+        "product_name": "Naty_Olympic_Small",
+        "company_name": "Olympic",
+        "purchase_price": 4,
+        "quantity": 9,
+        "unit_type": "Pcs",
+        "total": 36,
+        "grand_total": 36,
+        "per_unit_price": 4,
+        "date": "2025-03-24",
+        "sl": 5,
+        "supplier_name": "Fahim Khan Olympic"
+      },
+      {
+        "_id": "67e17a9b6f2b14f7c0bc0583",
+        "product_name": "Naty_Olympic_Small",
+        "company_name": "Olympic",
+        "purchase_price": 6,
+        "quantity": 4,
+        "unit_type": "Pcs",
+        "total": 24,
+        "grand_total": 24,
+        "per_unit_price": 6,
+        "date": "2025-03-24",
+        "sl": 6,
+        "supplier_name": "Fahim Khan Olympic"
+      },
+      {
+        "_id": "67e17ab16f2b14f7c0bc0584",
+        "product_name": "Naty_Olympic_Small",
+        "company_name": "Olympic",
+        "purchase_price": 3,
+        "quantity": 8,
+        "unit_type": "Pcs",
+        "total": 24,
+        "grand_total": 24,
+        "per_unit_price": 3,
+        "date": "2025-03-24",
+        "sl": 7,
+        "supplier_name": "Fahim Khan Olympic"
+      },
+      {
+        "_id": "67e17ac36f2b14f7c0bc0585",
+        "product_name": "Naty_Olympic_Small",
+        "company_name": "Olympic",
+        "purchase_price": 4.5,
+        "quantity": 5,
+        "unit_type": "Pcs",
+        "total": 22.5,
+        "grand_total": 22.5,
+        "per_unit_price": 4.5,
+        "date": "2025-03-24",
+        "sl": 8,
+        "supplier_name": "Fahim Khan Olympic"
+      },
+      {
+        "_id": "67e17b086f2b14f7c0bc0586",
+        "product_name": "Naty_Olympic_Standerd",
+        "company_name": "Olympic",
+        "purchase_price": 18,
+        "quantity": 4,
+        "unit_type": "Pcs",
+        "total": 72,
+        "grand_total": 72,
+        "per_unit_price": 18,
+        "date": "2025-03-24",
+        "sl": 9,
+        "supplier_name": "Fahim Khan Olympic"
+      },
+      {
+        "_id": "67e17b136f2b14f7c0bc0588",
+        "product_name": "Naty_Olympic_Standerd",
+        "company_name": "Olympic",
+        "purchase_price": 19,
+        "quantity": 3,
+        "unit_type": "Pcs",
+        "total": 57,
+        "grand_total": 57,
+        "per_unit_price": 19,
+        "date": "2025-03-24",
+        "sl": 10,
+        "supplier_name": "Fahim Khan Olympic"
+      },
+      {
+        "_id": "67e17b206f2b14f7c0bc0589",
+        "product_name": "Naty_Olympic_Standerd",
+        "company_name": "Olympic",
+        "purchase_price": 17,
+        "quantity": 6,
+        "unit_type": "Pcs",
+        "total": 102,
+        "grand_total": 102,
+        "per_unit_price": 17,
+        "date": "2025-03-24",
+        "sl": 11,
+        "supplier_name": "Fahim Khan Olympic"
+      },
+      {
+        "_id": "67e17b346f2b14f7c0bc058a",
+        "product_name": "Naty_Olympic_Standerd",
+        "company_name": "Olympic",
+        "purchase_price": 19,
+        "quantity": 7,
+        "unit_type": "Pcs",
+        "total": 133,
+        "grand_total": 133,
+        "per_unit_price": 19,
+        "date": "2025-03-24",
+        "sl": 12,
+        "supplier_name": "Fahim Khan Olympic"
+      },
+      {
+        "_id": "67e17b586f2b14f7c0bc058b",
+        "product_name": "Naty_Olympic_Standerd",
+        "company_name": "Olympic",
+        "purchase_price": 19,
+        "quantity": 9,
+        "unit_type": "Pcs",
+        "total": 171,
+        "grand_total": 171,
+        "per_unit_price": 19,
+        "date": "2025-03-24",
+        "sl": 13,
+        "supplier_name": "Fahim Khan Olympic"
+      },
+      {
+        "_id": "67e17d236f2b14f7c0bc058e",
+        "product_name": "Naty_Olympic_Small",
+        "unit_type": "Pcs",
+        "type": "return",
+        "date": "2025-03-24",
+        "purchase_price": 4,
+        "quantity": 3
+      },
+      {
+        "_id": "67e17d246f2b14f7c0bc058f",
+        "product_name": "Naty_Olympic_Standerd",
+        "unit_type": "Pcs",
+        "type": "return",
+        "date": "2025-03-24",
+        "purchase_price": 18,
+        "quantity": 4
+      },
+      {
+        "_id": "67e17d246f2b14f7c0bc0590",
+        "product_name": "Naty_Olympic_Standerd",
+        "unit_type": "Pcs",
+        "type": "return",
+        "date": "2025-03-24",
+        "purchase_price": 19,
+        "quantity": 2
+      },
+      {
+        "_id": "67e23e8696da5aa2ae8bd1cc",
+        "product_name": "Naty_Olympic_Small",
+        "unit_type": "Pcs",
+        "type": "return",
+        "date": "2025-03-25",
+        "purchase_price": 4,
+        "quantity": 2
+      },
+      {
+        "_id": "67e244b21fdaf778830e4748",
+        "product_name": "Naty_Olympic_Small",
+        "unit_type": "Pcs",
+        "type": "return",
+        "date": "2025-03-25",
+        "purchase_price": 4,
+        "quantity": 3
+      },
+      {
+        "_id": "67e24f2b0e38159feb9948ea",
+        "product_name": "Naty_Olympic_Small",
+        "unit_type": "Pcs",
+        "type": "return",
+        "date": "2025-03-25",
+        "purchase_price": 4,
+        "quantity": 2
+      },
+      {
+        "_id": "67e24f2c0e38159feb9948eb",
+        "product_name": "Naty_Olympic_Small",
+        "unit_type": "Pcs",
+        "type": "return",
+        "date": "2025-03-25",
+        "purchase_price": 4,
+        "quantity": 1
+      },
+      {
+        "_id": "67e24f2c0e38159feb9948ec",
+        "product_name": "Naty_Olympic_Standerd",
+        "unit_type": "Pcs",
+        "type": "return",
+        "date": "2025-03-25",
+        "purchase_price": 18,
+        "quantity": 4
+      },
+      {
+        "_id": "67e3cb33d6ab06fc5dc84093",
+        "product_name": "Naty_Olympic_Small",
+        "company_name": "Olympic",
+        "purchase_price": 4,
+        "quantity": 120,
+        "unit_type": "Pcs",
+        "total": 480,
+        "grand_total": 480,
+        "per_unit_price": 4,
+        "date": "2025-03-26",
+        "sl": 22,
+        "supplier_name": "Fahim Khan Olympic"
+      },
+      {
+        "_id": "67e3cb46d6ab06fc5dc84094",
+        "product_name": "Naty_Olympic_Standerd",
+        "company_name": "Olympic",
+        "purchase_price": 18,
+        "quantity": 120,
+        "unit_type": "Pcs",
+        "total": 2160,
+        "grand_total": 2160,
+        "per_unit_price": 18,
+        "date": "2025-03-26",
+        "sl": 23,
+        "supplier_name": "Fahim Khan Olympic"
+      }
+    ],
+    "products": [
+      {
+        "_id": "67e179e86f2b14f7c0bc057b",
+        "product_name": "Naty_Olympic_Small ",
+        "only_product_name": "Naty",
+        "unit": "",
+        "company_name": "Olympic",
+        "supplier_name": "Fahim Khan",
+        "supplier_collection": "Fahim_Khan_Olympic",
+        "catagory": "Small"
+      },
+      {
+        "_id": "67e179f86f2b14f7c0bc057c",
+        "product_name": "Naty_Olympic_Standerd ",
+        "only_product_name": "Naty",
+        "unit": "",
+        "company_name": "Olympic",
+        "supplier_name": "Fahim Khan",
+        "supplier_collection": "Fahim_Khan_Olympic",
+        "catagory": "Standerd"
+      }
+    ],
+    "project_stocker": [
+      {
+        "_id": "6791179962a385bbdd5f1a52",
+        "currentInvoiceNumber": 21,
+        "description": "This object collected current invoice Number"
+      },
+      {
+        "_id": "6791cea570cdd0c331bb371a",
+        "customerIdForSale": "000000000000000000000000",
+        "description:": "This object is store which customer id. This is this customer buy somthing"
+      },
+      {
+        "_id": "67d8ff2413b83517eac83d84",
+        "write_off_number": 2,
+        "description": "This object is store write off id."
+      }
+    ]
+  }
+}
