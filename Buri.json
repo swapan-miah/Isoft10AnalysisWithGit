@@ -1055,7 +1055,27 @@
         "mobile": "01425361425",
         "currentDate": "2025-03-26",
         "CustomerId": "CUST000005",
-        "order": []
+        "order": [],
+        "customer_previouse_due": {
+          "memu_number": "previouse_12",
+          "address": "Tangail",
+          "name": "Buri",
+          "mobile": "01425361425",
+          "due": 870,
+          "date": "2025-03-26",
+          "CustomerId": "CUST000005",
+          "c_object_id": "67e3b69e2163f8bb9c24c409"
+        },
+        "current_due": {
+          "memu_number": "previouse_12",
+          "address": "Tangail",
+          "name": "Buri",
+          "mobile": "01425361425",
+          "due": 870,
+          "date": "2025-03-26",
+          "CustomerId": "CUST000005",
+          "c_object_id": "67e3b69e2163f8bb9c24c409"
+        }
       }
     ],
     "supplier": [
