@@ -1137,9 +1137,9 @@
           "address": "Tangail",
           "mobile": "01425361425",
           "c_object_id": "67e3b69e2163f8bb9c24c409",
-          "due": 460,
+          "due": 260,
           "date": "2025-03-26",
-          "dueInvoice": 14
+          "dueInvoice": 15
         },
         "due_payment": [
           {
@@ -1154,6 +1154,20 @@
             "date": "2025-03-26",
             "c_object_id": "67e3b69e2163f8bb9c24c409",
             "due": 460
+          },
+          {
+            "address": "Tangail",
+            "name": "Buri",
+            "mobile": "01425361425",
+            "unPaid": 460,
+            "paid": 200,
+            "invoice_no": 15,
+            "due": 260,
+            "date": "2025-03-26",
+            "CustomerId": "CUST000005",
+            "from": "Due Payment",
+            "c_object_id": "67e3b69e2163f8bb9c24c409",
+            "dueInvoice": 14
           }
         ],
         "due_history": [
@@ -1164,6 +1178,15 @@
             "customer_address": "Tangail",
             "customer_mobile": "01425361425",
             "due": 460,
+            "date": "2025-03-26"
+          },
+          {
+            "invoice_no": 15,
+            "c_object_id": "67e3b69e2163f8bb9c24c409",
+            "customer_name": "Buri",
+            "customer_address": "Tangail",
+            "customer_mobile": "01425361425",
+            "due": 260,
             "date": "2025-03-26"
           }
         ],
@@ -1567,7 +1590,7 @@
     "project_stocker": [
       {
         "_id": "6791179962a385bbdd5f1a52",
-        "currentInvoiceNumber": 14,
+        "currentInvoiceNumber": 15,
         "description": "This object collected current invoice Number"
       },
       {
