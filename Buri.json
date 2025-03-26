@@ -1137,7 +1137,7 @@
           "address": "Tangail",
           "mobile": "01425361425",
           "c_object_id": "67e3b69e2163f8bb9c24c409",
-          "due": 260,
+          "due": 160,
           "date": "2025-03-26",
           "dueInvoice": 15
         },
@@ -1168,6 +1168,20 @@
             "from": "Due Payment",
             "c_object_id": "67e3b69e2163f8bb9c24c409",
             "dueInvoice": 14
+          },
+          {
+            "address": "Tangail",
+            "name": "Buri",
+            "mobile": "01425361425",
+            "unPaid": 460,
+            "paid": 300,
+            "invoice_no": 15,
+            "due": 160,
+            "date": "2025-03-26",
+            "CustomerId": "CUST000005",
+            "from": "Due Payment",
+            "c_object_id": "67e3b69e2163f8bb9c24c409",
+            "dueInvoice": 14
           }
         ],
         "due_history": [
@@ -1187,6 +1201,15 @@
             "customer_address": "Tangail",
             "customer_mobile": "01425361425",
             "due": 260,
+            "date": "2025-03-26"
+          },
+          {
+            "invoice_no": 15,
+            "c_object_id": "67e3b69e2163f8bb9c24c409",
+            "customer_name": "Buri",
+            "customer_address": "Tangail",
+            "customer_mobile": "01425361425",
+            "due": 160,
             "date": "2025-03-26"
           }
         ],
