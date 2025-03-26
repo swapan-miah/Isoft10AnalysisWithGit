@@ -6,7 +6,7 @@
         "_id": "67e17a236f2b14f7c0bc057e",
         "product_name": "Naty_Olympic_Small",
         "company_name": "Olympic",
-        "store_quantity": 4,
+        "store_quantity": 0,
         "purchase_price": 4.5,
         "unit_type": "Pcs"
       },
@@ -14,7 +14,7 @@
         "_id": "67e17b096f2b14f7c0bc0587",
         "product_name": "Naty_Olympic_Standerd",
         "company_name": "Olympic",
-        "store_quantity": 1,
+        "store_quantity": 0,
         "purchase_price": 19,
         "unit_type": "Pcs"
       }
@@ -1222,7 +1222,79 @@
         "mobile": "01758694525",
         "currentDate": "2025-03-26",
         "CustomerId": "CUST000006",
-        "order": [],
+        "order": [
+          {
+            "customer": {
+              "name": "Rahul",
+              "address": "Tangail",
+              "mobile": "01758694525",
+              "CustomerId": "CUST000006"
+            },
+            "previous_due": 600,
+            "paid": "400",
+            "discount": 0,
+            "subTotal": 0,
+            "grand_total": 40,
+            "total_profit": 3,
+            "total_due": 640,
+            "due": 240,
+            "c_object_id": "67e3befe9b5fcef4f3669f5d",
+            "date": "2025-03-26",
+            "subTotal1": 40,
+            "invoice_no": 16,
+            "products": [
+              {
+                "productName": "Naty_Olympic_Small",
+                "unit_type": "Pcs",
+                "purchase_price": 4.5,
+                "store_quantity": 4,
+                "sell_price": "5",
+                "sell_quantity": 4,
+                "total": 20,
+                "profit": 2,
+                "grand_total": "",
+                "actualProfit": 4,
+                "actualProfitDetails": [
+                  {
+                    "batchId": "67e23e8696da5aa2ae8bd1cc",
+                    "purchase_price": 4,
+                    "usedQuantity": 2,
+                    "profitPerUnit": 1,
+                    "batchProfit": 2
+                  },
+                  {
+                    "batchId": "67e244b21fdaf778830e4748",
+                    "purchase_price": 4,
+                    "usedQuantity": 2,
+                    "profitPerUnit": 1,
+                    "batchProfit": 2
+                  }
+                ]
+              },
+              {
+                "productName": "Naty_Olympic_Standerd",
+                "unit_type": "Pcs",
+                "purchase_price": 19,
+                "store_quantity": 1,
+                "sell_price": "20",
+                "sell_quantity": 1,
+                "total": 20,
+                "profit": 1,
+                "grand_total": "",
+                "actualProfit": 2,
+                "actualProfitDetails": [
+                  {
+                    "batchId": "67e24f2c0e38159feb9948ec",
+                    "purchase_price": 18,
+                    "usedQuantity": 1,
+                    "profitPerUnit": 2,
+                    "batchProfit": 2
+                  }
+                ]
+              }
+            ]
+          }
+        ],
         "customer_previouse_due": {
           "memu_number": "previouse_17",
           "address": "Tangail",
@@ -1234,15 +1306,42 @@
           "c_object_id": "67e3befe9b5fcef4f3669f5d"
         },
         "current_due": {
-          "memu_number": "previouse_17",
-          "address": "Tangail",
-          "name": "Rahul",
-          "mobile": "01758694525",
-          "due": 600,
-          "date": "2025-03-26",
           "CustomerId": "CUST000006",
-          "c_object_id": "67e3befe9b5fcef4f3669f5d"
-        }
+          "name": "Rahul",
+          "address": "Tangail",
+          "mobile": "01758694525",
+          "c_object_id": "67e3befe9b5fcef4f3669f5d",
+          "due": 240,
+          "date": "2025-03-26",
+          "dueInvoice": 16
+        },
+        "due_payment": [
+          {
+            "address": "Rahul",
+            "name": "Tangail",
+            "mobile": "01758694525",
+            "CustomerId": "CUST000006",
+            "from": "sales",
+            "unPaid": 600,
+            "paid": "400",
+            "invoice_no": 16,
+            "date": "2025-03-26",
+            "c_object_id": "67e3befe9b5fcef4f3669f5d",
+            "due": 240
+          }
+        ],
+        "due_history": [
+          {
+            "invoice_no": 16,
+            "c_object_id": "67e3befe9b5fcef4f3669f5d",
+            "customer_name": "Rahul",
+            "customer_address": "Tangail",
+            "customer_mobile": "01758694525",
+            "due": 240,
+            "date": "2025-03-26"
+          }
+        ],
+        "dueInvoice": 16
       }
     ],
     "supplier": [
@@ -1642,7 +1741,7 @@
     "project_stocker": [
       {
         "_id": "6791179962a385bbdd5f1a52",
-        "currentInvoiceNumber": 15,
+        "currentInvoiceNumber": 16,
         "description": "This object collected current invoice Number"
       },
       {
