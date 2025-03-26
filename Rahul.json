@@ -1222,7 +1222,27 @@
         "mobile": "01758694525",
         "currentDate": "2025-03-26",
         "CustomerId": "CUST000006",
-        "order": []
+        "order": [],
+        "customer_previouse_due": {
+          "memu_number": "previouse_17",
+          "address": "Tangail",
+          "name": "Rahul",
+          "mobile": "01758694525",
+          "due": 600,
+          "date": "2025-03-26",
+          "CustomerId": "CUST000006",
+          "c_object_id": "67e3befe9b5fcef4f3669f5d"
+        },
+        "current_due": {
+          "memu_number": "previouse_17",
+          "address": "Tangail",
+          "name": "Rahul",
+          "mobile": "01758694525",
+          "due": 600,
+          "date": "2025-03-26",
+          "CustomerId": "CUST000006",
+          "c_object_id": "67e3befe9b5fcef4f3669f5d"
+        }
       }
     ],
     "supplier": [
